@@ -69,6 +69,12 @@
     uvicorn main:app --reload
     ```
     API จะพร้อมใช้งานที่ `http://127.0.0.1:8000`
+    
+    **รัน Server แบบกำหนด Host:**
+    ```bash
+    uvicorn main:app --host 192.168.1.32 --reload
+    ```
+    ตัวอย่าง IP
 
 ### Frontend (Flutter)
 
