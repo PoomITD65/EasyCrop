@@ -72,9 +72,9 @@
     
     **รัน Server แบบกำหนด Host:**
     ```bash
-    uvicorn main:app --host 192.168.1.32 --reload
+    uvicorn main:app --host 1.1.1.1 --reload
     ```
-    ตัวอย่าง IP
+    ตัวอย่าง IP สมมุติ
 
 ### Frontend (Flutter)
 
