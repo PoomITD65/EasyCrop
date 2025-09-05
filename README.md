@@ -131,3 +131,5 @@ Endpoint ทั้งหมดจะอยู่ภายใต้ prefix `/api`
 | `POST`   | `/schools/{school_name}/students/export-zip` | **User** | Export รูปถ่ายนักเรียนเป็นไฟล์ ZIP                |
 
 
+-   **Link For Key:**
+    - (https://drive.google.com/file/d/1pxGP-nWJhGZ_-S8P8IdjAJa6O4smM1A-/view?usp=sharing)
