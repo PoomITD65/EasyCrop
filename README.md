@@ -130,11 +130,4 @@ Endpoint ทั้งหมดจะอยู่ภายใต้ prefix `/api`
 | `POST`   | `/schools/{school_name}/students/upload-csv` | **User** | อัปโหลดรายชื่อนักเรียนจากไฟล์ CSV                 |
 | `POST`   | `/schools/{school_name}/students/export-zip` | **User** | Export รูปถ่ายนักเรียนเป็นไฟล์ ZIP                |
 
-### Admin Functions
-| Method   | Path                          | การป้องกัน     | คำอธิบาย                                           |
-| :------- | :---------------------------- | :------------- | :------------------------------------------------- |
-| `GET`    | `/logs/activity`              | **Admin** | ดึงข้อมูล Log กิจกรรมทั้งหมด                   |
-| `GET`    | `/users`                      | **Admin** | ดึงรายชื่อผู้ใช้ทั้งหมดในระบบ                 |
-| `POST`   | `/users/{uid}/role`           | **Admin** | อัปเดตสิทธิ์ (Role) ของผู้ใช้ที่ระบุ           |
-| `DELETE` | `/users/{uid}`                | **Admin** | ลบบัญชีผู้ใช้ที่ระบุ                          |
 
